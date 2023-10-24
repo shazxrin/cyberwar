@@ -446,7 +446,7 @@ const createEventSlice: StateCreator<AppStore, [], [], EventSlice> = (set, get) 
                 playerTurn: null
             }
 
-            const playerWin = endPlayServerEvent.playerWin == get().playerName ? "You" : get().playerName
+            const playerWin = endPlayServerEvent.playerWin == get().playerName ? "You" : endPlayServerEvent.playerWin
 
             set((state) => ({
                 ...state,
@@ -472,7 +472,7 @@ const createEventSlice: StateCreator<AppStore, [], [], EventSlice> = (set, get) 
                 )
             }
 
-            const playerSkip = skipPlayServerEvent.playerSkip == get().playerName ? "You" : get().playerName
+            const playerSkip = skipPlayServerEvent.playerSkip == get().playerName ? "You" : skipPlayServerEvent.playerSkip
 
             set((state) => ({
                 ...state,
