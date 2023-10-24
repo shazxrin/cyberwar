@@ -1,0 +1,54 @@
+{
+    "type": "connect",
+    "player_name": "player1"
+}
+
+{
+    "type": "connect",
+    "player_name": "player2"
+}
+
+{
+    "type": "create",
+    "game_name": "fight me"
+}
+
+{
+    "type": "search"
+}
+
+{
+    "type": "join",
+    "game_id": 0
+}
+
+{
+    "type": "leave"
+}
+
+{
+    "type": "start"
+}
+
+{
+    "type": "play",
+    "action": "skip"
+}
+
+{
+    "type": "play",
+    "action": "attack",
+    "card_id": 0
+}
+
+{
+    "type": "play",
+    "action": "defend",
+    "card_id": 0
+}
+
+{
+    "type": "play",
+    "action": "counter",
+    "card_id": 0
+}

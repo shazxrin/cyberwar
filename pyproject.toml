@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cyberwar"
+version = "0.1.0"
+description = ""
+authors = ["shazrin <shazxrin@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+websockets = "^11.0.3"
+gspread = "^5.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

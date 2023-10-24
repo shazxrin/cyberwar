@@ -1,0 +1,12 @@
+WEBSOCKET ws://localhost:9099
+Content-Type: application-json
+
+{
+    "type": "connect",
+    "player_name": "player1"
+}
+===
+{
+    "type": "create",
+    "game_name": "fight me"
+}
