@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-websockets = "^11.0.3"
 gspread = "^5.11.3"
+aiohttp = "^3.8.6"
 
 
 [build-system]

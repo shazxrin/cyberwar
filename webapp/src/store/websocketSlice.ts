@@ -6,7 +6,7 @@ const createWebSocketSlice: StateCreator<AppStore, [], [], WebSocketSlice> = (se
     websocket: null,
     isWebSocketReady: false,
     initWebSocket: () => {
-        const newWS = new WebSocket("ws://localhost:5173/ws")
+        const newWS = new WebSocket("ws://localhost:8080/ws")
 
         newWS.addEventListener("open", (_) => {
             set((state) => ({...state, isWebSocketReady: true}))
