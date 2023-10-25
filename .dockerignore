@@ -1,0 +1,6 @@
+/www
+/assets
+/tests
+/webapp/node_modules
+/.idea
+credentials.json
