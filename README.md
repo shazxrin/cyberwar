@@ -6,7 +6,9 @@ A multiplayer online card game to educate about cybersecurity. This project is d
 
 ## Rules
 
-![Rules](/docs/rules.png)
+<p align="center">
+  <img alt="Rules" src="/docs/rules.png" />
+</p>
 
 
 ## Gameplay
